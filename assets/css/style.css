@@ -1635,6 +1635,7 @@ body {
     font-size: 50px; } }
 @media (max-width: 611px) {
   .about {
+    margin: 70px 0;
     font-size: 30px; }
 
   .text {
