@@ -42,11 +42,11 @@
 .linky {
 	color: black;
 	text-decoration: none;
-	transition: linear .3s;
+	transition: linear .1s;
 
 	&:hover {
 		color: #FF4E50;
-		transition: linear .3s;
+		transition: linear .1s;
 	}
 }
 
@@ -72,7 +72,7 @@
 @media (max-width: 611px) {
 
 	.about {
-	font-size: 40px;
+	font-size: 30px;
 	}
 
 	.text {
@@ -90,6 +90,10 @@
 	.text4 {
 	margin: 0;
 	padding: 10px;
+	}
+
+	.abody {
+	margin: 20px 20px 300px 20px;
 	}
 
 }

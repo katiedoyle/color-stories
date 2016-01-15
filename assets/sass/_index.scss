@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	height: 100%;
 }
 
 .content {
@@ -24,12 +25,12 @@ body {
 	background-color: #033649;
 	font-family: $playfair;
 	font-size: 40px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
-			font-size: 50px;
-			transition: linear .3s;
+			font-size: 60px;
+			transition: linear .2s;
 		}
 	}
 }
@@ -46,12 +47,12 @@ body {
 	background-color: #FF4E50;
 	font-family: $lato;
 	font-size: 50px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
 			font-size: 70px;
-			transition: linear .3s;
+			transition: linear .2s;
 		}
 	}
 }
@@ -70,12 +71,12 @@ body {
 	background-color: #CBE86B;
 	font-family: $lobster;
 	font-size: 60px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
-			font-size: 80px;
-			transition: linear .3s;
+			font-size: 90px;
+			transition: linear .2s;
 		}
 	}
 }
@@ -138,12 +139,12 @@ body {
 	font-weight: bold;
 	font-family: $ama;
 	font-size: 70px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
 			font-size: 100px;
-			transition: linear .3s;
+			transition: linear .2s;
 		}
 	}
 }
@@ -160,12 +161,12 @@ body {
 	background-color: #490A3D;
 	font-family: $lines;
 	font-size: 50px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
-			font-size: 70px;
-			transition: linear .3s;
+			font-size: 75px;
+			transition: linear .2s;
 		}
 	}
 }
@@ -182,12 +183,12 @@ body {
 	background-color: #343838;
 	font-family: $pacifico;
 	font-size: 50px;
-	transition: linear .3s;
+	transition: linear .2s;
 
 	&:hover {
 		.grow {
 			font-size: 60px;
-			transition: linear .3s;
+			transition: linear .2s;
 		}
 	}
 }
@@ -313,6 +314,7 @@ body {
 	}
 
 	.classic {
+		width: 100%;
 		font-size: 60px;
 		&:hover {
 
@@ -323,6 +325,7 @@ body {
 	}
 
 	.modern {
+		width: 100%;
 		font-size: 60px;
 		&:hover {
 
@@ -333,6 +336,7 @@ body {
 	}
 
 	.fun {
+		width: 100%;
 		font-size: 60px;
 		&:hover {
 
@@ -343,6 +347,7 @@ body {
 	}
 
 	.subtle {
+		width: 100%;
 		font-size: 60px;
 		&:hover {
 
@@ -353,6 +358,7 @@ body {
 	}
 
 	.bold {
+		width: 100%;
 		font-size: 60px;
 		&:hover {
 
@@ -363,6 +369,7 @@ body {
 	}
 
 	.mono {
+		width: 100%;
 		font-size: 40px;
 		&:hover {
 

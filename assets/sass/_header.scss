@@ -4,6 +4,7 @@
 	justify-content: space-around;
 	align-items: center;
 	border-bottom: solid black 1px;
+    text-align: center;
 
     h1 {
     	img {
@@ -32,7 +33,7 @@
     		height: 40px;
     		width: 40px;
     		border-radius: 50%;
-    		transition: linear .3s;
+    		transition: linear .2s;
     	}
 
     	.color2 {
@@ -44,7 +45,7 @@
     		height: 40px;
     		width: 40px;
     		border-radius: 50%;
-    		transition: linear .3s;
+    		transition: linear .2s;
     	}
 
     	&:hover {
@@ -52,13 +53,13 @@
     		.color {
     			background-color: #FF6B6B;
     			transform: scale(2);
-    			transition: linear .3s;
+    			transition: linear .2s;
     		}
 
     		.color2 {
     			background-color: #FF6B6B;
     			transform: scale(2);
-    			transition: linear .3s;
+    			transition: linear .2s;
     		}
     	}
     }
@@ -67,8 +68,17 @@
 //media queries 
 
 @media (max-width: 724px) {
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        transform: scale(.8);
+    }
 	.button {
-		transform: scale(.6);
+        display: none;
 	}
 
 }
