@@ -207,7 +207,12 @@ body {
 	}	
 }
 
-@media (max-width: 744px) {
+@media (max-width: 820px) {
+
+	.content2 {
+		margin-bottom: 380px;
+	}
+
 	.classic {
 		height: 150px;
 		font-size: 20px;
